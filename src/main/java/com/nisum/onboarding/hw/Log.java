@@ -4,9 +4,6 @@ package com.nisum.onboarding.hw;
 
 import java.io.*;
 import java.util.Date;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 
 public class Log {
 	 	
@@ -20,7 +17,7 @@ public class Log {
 		fh.write(string+" "+new Date()+"\n");
 		
 		fh.close();
-		
+			
 	}
 
 }
